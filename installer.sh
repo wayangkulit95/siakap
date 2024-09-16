@@ -330,7 +330,7 @@ echo "   - Sodosok WS/GRPC         : 443" | tee -a log-install.txt
 echo "   - SLOWDNS                 : 53"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
-echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
+echo "   - Timezone                : Asia/Kuala_Lumpur (GMT +8)"  | tee -a log-install.txt
 echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
 echo "   - Dflate                  : [ON]"  | tee -a log-install.txt
 echo "   - IPtables                : [ON]"  | tee -a log-install.txt
@@ -349,7 +349,7 @@ echo ""
 echo ""
 echo ""
 echo "" | tee -a log-install.txt
-echo "ADIOS"
+echo "INSTALLATION TELAH BERJAYA"
 sleep 1
 echo -ne "[ ${yell}WARNING${NC} ] Adakah anda mahu reboot sekarang ? (y/n)? "
 read answer
