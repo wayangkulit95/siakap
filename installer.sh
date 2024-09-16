@@ -20,7 +20,7 @@ CEKEXPIRED() {
 }
 IZIN=$(curl -sS https://raw.githubusercontent.com/wayangkulit95/REGISTER/main/IPVPS | awk '{print $4}' | grep $MYIP)
 if [ $MYIP = $IZIN ]; then
-echo "IZIN DI TERIMA!!"
+echo "Permission Diterima!!"
 else
 echo "Akses di tolak!!";
 exit 0
